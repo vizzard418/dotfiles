@@ -46,6 +46,9 @@ client.background         #282828 #282828 #928374 #928374 #928374
 # Autostart .desktop files
 exec --no-startup-id dex-autostart --autostart --environment i3
 
+# Keyboard layout
+exec --no-startup-id setxkbmap us
+
 # Lock screen on suspend
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
